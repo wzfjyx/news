@@ -1,0 +1,51 @@
+//
+//  Headlines.pch
+//  Headlines
+//
+//  Created by mac12 on 16/9/21.
+//  Copyright © 2016年 wxhl. All rights reserved.
+//
+
+#ifndef Headlines_pch
+#define Headlines_pch
+
+#import "YYModel.h"
+#import "AFNetworking.h"
+#import "WXRefresh.h"
+#import "UIImageView+WebCache.h"
+//屏幕宽度
+#define KScreenWidth [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//创建Sina微博对象
+#define KSinaWeibo ((AppDelegate *)[UIApplication sharedApplication].delegate).sina
+
+#define kSearchTitle @"kSearchTitle"
+
+//------------------宏定义---------------------
+#define kScreenHeight  [UIScreen mainScreen].bounds.size.height
+#define kScreenWidth   [UIScreen mainScreen].bounds.size.width
+#define CellViewHeight 60
+#define SpaceWidth 10
+#define ImageViewWidth 40
+#define ImageViewSpace 5
+
+//------------------头文件---------------------
+#import "RecommendModel.h"
+#import "PassageModel.h"
+
+
+
+//第三方类库头文件
+#import "YYModel.h"
+
+#import "UIProgressView+AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "WXRefresh.h"
+
+//系统头文件
+#import <UIKit/UIKit.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Headlines_pch */
